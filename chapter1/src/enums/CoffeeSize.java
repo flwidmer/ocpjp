@@ -1,5 +1,10 @@
 package enums;
 
+/**
+ * Take enum values from files
+ * @author fwi
+ *
+ */
 public enum CoffeeSize {
 	LARGE(Sizes.size1), LARGER(Sizes.size2);
 	CoffeeSize(int s) {
